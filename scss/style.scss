@@ -1,7 +1,6 @@
 @import 'vars';
 .body{
-    display: flex;
-    flex-direction: column;
+    
 }
 .vlad{
     text-align: center;
@@ -22,36 +21,34 @@
     0 20px 20px rgba(0,0,0,.15);
 }
 .row{
-    display:flex;
-    align-items: center;
-    z-index: 4;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content:center;
-    position:relative;
-
+    display: flex;
+    justify-content: space-around;
+    
+   
 }
 .children{
-        border: 5px solid rgb(255, 69, 69) ;
-        flex-wrap: wrap;
-        display:flex;
-        justify-content: space-around;
-        max-width: 100vh;
-    }
-.top-cont{
-        flex-direction: row;    
-        display: flex;
-        height: 100vh;
-        background-color: $color2;
-        justify-content: center;
-        z-index: 1;
-        flex-wrap: wrap;
-        position: absolute;
+    border: 5px solid rgb(255, 69, 69) ;
+    max-width: 33%;
+    height: 100%;
         
-    }
+    
+        
+        
+}
+.top-cont{
+        
+          
+        
+        
+    background-color: $color2;
+        
+        
+        
+        
+}
 .col{
-    display:flex;
-    flex-direction: column;
+    max-width: 100%;
+    max-height: 100%;
     
 }
 
